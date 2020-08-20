@@ -25,3 +25,17 @@ If you send a DM to this bot, it will be anonymously transferred to #anonymous.
 - [`app_home_opened`](https://api.slack.com/events/app_home_opened)
 - [`message.channels`](https://api.slack.com/events/message.channels)
 - [`message.im`](https://api.slack.com/events/message.im)
+
+### .env
+    # Environment Config
+
+    SLACK_SIGNING_SECRET=please input
+    SLACK_BOT_TOKEN=please input
+    SLACK_TOKEN=please input
+
+    ANONYMOUS_CHANNEL_ID=please input
+    BOT_DM_CHANNEL_ID=please input
+    BOT_USER_ID=please input
+    
+    # sample /path/to/file
+    WAKE_UP_URL=please input
