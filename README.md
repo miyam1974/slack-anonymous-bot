@@ -27,6 +27,7 @@ If you send a DM to this bot, it will be anonymously transferred to #anonymous.
 - [`message.im`](https://api.slack.com/events/message.im)
 
 ### .env
+#### Create an .env file in the following format and describe the value of the variable
     # Environment Config
 
     SLACK_SIGNING_SECRET=please input
